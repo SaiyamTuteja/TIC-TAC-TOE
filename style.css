@@ -1,0 +1,134 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-color: white;
+}
+button box {
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+main {
+  justify-content: center;
+  text-align: center;
+}
+
+#btn1 {
+  color: black;
+  background-color: #94d1be;
+  padding: 1rem;
+  margin: 1.25rem;
+  font-size: 1rem;
+  border-radius: 1rem;
+  border: none;
+}
+#btn1:hover {
+  transform: scale(1.35);
+  transition: 0.3s ease-in-out;
+}
+.contianer {
+  margin: 2rem;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.game {
+  height: 60vimn;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  gap: 1.5vmin;
+}
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  font-size: 8vmin;
+  background-color: #91adc2;
+  color: black;
+}
+.reset {
+  padding: 1rem;
+  margin: 1px;
+  font-size: 1rem;
+  background-color: #1c6e8c;
+  color: aliceblue;
+  border-radius: 1rem;
+  border: none;
+}
+.reset:hover {
+  transform: scale(1.25);
+  transition: 0.2s ease-in-out;
+}
+.new-btn {
+  padding: 1rem;
+  justify-content: left;
+  text-align: left;
+  margin: 1px;
+  font-size: 1rem;
+  background-color: #32746d;
+  color: white;
+  border-radius: 1rem;
+  border: none;
+}
+.winner {
+  font-size: 8vmin;
+  color: #ef476f;
+  margin: 4vmin;
+}
+.new_container {
+  height: 100vmin;
+  justify-content: center;
+  text-align: center;
+  margin: 20vmin;
+  gap: 10rem;
+}
+.hide {
+  display: none;
+}
+.box:hover {
+  transform: scale(1.05);
+  transition: 0.2s ease-in-out;
+}
+.highlight {
+  background-color: #f7b801;
+  color: black;
+}
+
+/* background colour theme change  */
+.dark {
+  background-color: #000000;
+  color: white;
+}
+.light {
+  background-color: #107e7d;
+  color: white;
+}
+.nude {
+  background-color: #5f4b66;
+  color: white;
+}
+.blue {
+  background-color: #0e6ba8;
+  color: white;
+}
+.rose {
+  background-color: #2c4251;
+  color: white;
+}
+.blueish {
+  color: black;
+  background-color: #7d83ff;
+}
+.cerulian {
+  background-color: #1c6e8c;
+  color: white;
+}
